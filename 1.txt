@@ -1,0 +1,47 @@
+git init ——— git add . ——— git commit -m "init project" ——————————
+
+Github 
+大事件
+  New Repository: web_bigevent   ————  
+  创建将本地仓库和Github仓库建立关联关系|  
+
+  将本地仓库的代码推送到Github仓库中
+ 【git remote add origin https://github.com/Quentin-0228/web_bigevent.git
+  git branch -M main
+  git push -u origin main 】
+  git checkout -b login 
+
+git add .
+git commit -m "新建了home1.js 文件"
+git status
+
+git push origin login 
+
+git push
+
+控制面板-凭据管理器
+
+ssh-keygen -t rsa -b 4096 -C "1355197164@qq.com"  三次回车
+  .ssh  >   id_isa.pub 记事本打开复制内容  > GitHub 头像 SSH andGPG keys
+  title ：oxj_19
+ 
+ssh -T git@github.com
+
+git init
+  Github账号: Quentin-0228 | 1355197164@qq.com 
+
+
+基于 SSH 将本地仓库上传到 Github 
+  git status
+  git remote add origin git@github.com:Quentin-0228/proj_01.git
+  git push -u origin master
+
+
+
+gti checkout -b home2
+git add .  
+git commit -m "home2"
+g checkout main 
+git branch  
+
+git status
